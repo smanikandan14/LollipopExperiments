@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Indigo -->
+    <color name="primary">#3F51B5</color>
+    <color name="primaryDark">#303F9F</color>
+    <!-- Secondary Platte  -->
+    <color name="accent">#3D5AFE</color>
+
+    <color name="colorControlNormal">#8C9EFF</color>
+    <color name="colorSwitchThumbNormal">#E8EAF6</color>
+
+    <color name="text_primary">#D9000000</color>
+    <color name="text_secondary">#D9000000</color>
+
+    <!-- ToolBarLight Lime -->
+    <color name="toolbar_light_primary">#CDDC39</color>
+    <color name="toolbar_light_primaryDark">#AFB42B</color>
+
+    <!-- ToolBarDark Blue -->
+    <color name="toolbar_dark_primary">#F44336</color>
+    <color name="toolbar_dark_primaryDark">#D32F2F</color>
+
+
+</resources>

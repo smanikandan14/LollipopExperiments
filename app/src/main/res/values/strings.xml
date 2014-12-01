@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LollipopExperiment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_menu1">Menu1</string>
+    <string name="action_menu2">Menu2</string>
+
+    <string-array name="demo_items">
+        <item> ToolBar (Light) </item>
+        <item> ToolBar (Light DarkActionBar) </item>
+        <item> ToolBar (Dark) </item>
+        <item> All Color Combinations \nElevation, StateListAnimator, TranslationZ </item>
+        <item> Transitions </item>
+        <item> Ripple Drawable </item>
+        <item> Reveal Effects </item>
+        <item> Platte </item>
+    </string-array>
+</resources>
