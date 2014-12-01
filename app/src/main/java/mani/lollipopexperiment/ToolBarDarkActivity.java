@@ -20,7 +20,7 @@ public class ToolBarDarkActivity extends ActionBarActivity {
         Toolbar toolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolBar);
         getSupportActionBar().setTitle("ToolbarDark");
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // You must be expecting setting title to toolbar will reflect the title on actionbar.
         // But it doesnot. Once you call setSupportActionBar(Toolbar), the Action Bar is then
         // responsible for handling the title, so you need to call
@@ -41,7 +41,13 @@ public class ToolBarDarkActivity extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        return super.onOptionsItemSelected(item);
+        switch(item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
 }

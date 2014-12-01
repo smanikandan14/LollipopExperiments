@@ -20,6 +20,7 @@ public class ToolBarLightDarkActivity extends ActionBarActivity {
         Toolbar toolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolBar);
         getSupportActionBar().setTitle("ToolbarLight.DarkActionBar");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ((TextView)findViewById(R.id.themeText)).setText("Theme.AppCompat.Light.DarkActionBar");
 
@@ -33,7 +34,13 @@ public class ToolBarLightDarkActivity extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        return super.onOptionsItemSelected(item);
+        switch(item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
 }
