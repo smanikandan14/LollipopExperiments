@@ -4,7 +4,7 @@
     <!-- Indigo -->
     <color name="primary">#3F51B5</color>
     <color name="primaryDark">#303F9F</color>
-    <!-- Secondary Platte  -->
+    <!-- Secondary Platte  Indigo A400 -->
     <color name="accent">#3D5AFE</color>
 
     <color name="colorControlNormal">#8C9EFF</color>
@@ -20,6 +20,12 @@
     <!-- ToolBarDark Blue -->
     <color name="toolbar_dark_primary">#F44336</color>
     <color name="toolbar_dark_primaryDark">#D32F2F</color>
+
+    <!-- Ripple Example theme -->
+    <!-- Seconday platter Green A400 -->
+    <color name="ripple_theme_accent1">#00E676</color>
+    <color name="ripple_theme_accent">#D50000</color>
+
 
 
 </resources>

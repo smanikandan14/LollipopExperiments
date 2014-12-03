@@ -10,4 +10,7 @@
     <dimen name="keyline_2_session_detail">@dimen/keyline_2</dimen>
 
     <dimen name="headerbar_elevation">4dp</dimen>
+
+    <dimen name="floating_action_button_height">56dp</dimen> <!-- including padding -->
+
 </resources>

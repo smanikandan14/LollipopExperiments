@@ -48,6 +48,9 @@ public class MainActivity extends ActionBarActivity {
             case 3:
                 startActivity(new Intent(MainActivity.this, AllWidgetsActivity.class));
                 break;
+            case 4:
+                startActivity(new Intent(MainActivity.this, RippleExampleActivity.class));
+                break;
         }
     }
 }

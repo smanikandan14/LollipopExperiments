@@ -33,10 +33,13 @@
             android:theme="@style/ToolBarDarkTheme" />
 
         <activity
+            android:name=".RippleExampleActivity"
+            android:theme="@style/RippleExampleTheme" />
+
+        <activity
             android:name=".MyActivity1"
             android:label="@string/app_name"
             android:theme="@style/MyActivityTheme">
-
 
         </activity>
 

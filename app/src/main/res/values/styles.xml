@@ -41,6 +41,15 @@
         <item name="colorSwitchThumbNormal">@color/colorSwitchThumbNormal</item>
     </style>
 
+    <style name="RippleExampleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/ripple_theme_accent</item>
+
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
     <style name="Toolbar_Overlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         <item name="android:background">#ffffff</item>
     </style>

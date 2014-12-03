@@ -12,8 +12,8 @@
         <item> ToolBar (Light DarkActionBar) </item>
         <item> ToolBar (Dark) </item>
         <item> All Color Combinations \nElevation, StateListAnimator, TranslationZ </item>
+        <item> Ripple Drawable, FAB </item>
         <item> Transitions </item>
-        <item> Ripple Drawable </item>
         <item> Reveal Effects </item>
         <item> Platte </item>
     </string-array>
