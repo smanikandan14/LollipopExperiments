@@ -11,6 +11,7 @@
         <item> ToolBar (Light) </item>
         <item> ToolBar (Light DarkActionBar) </item>
         <item> ToolBar (Dark) </item>
+        <item> Extended ToolBar </item>
         <item> All Color Combinations \nElevation, StateListAnimator, TranslationZ </item>
         <item> Ripple Drawable, FAB </item>
         <item> Transitions </item>

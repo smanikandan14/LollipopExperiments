@@ -11,6 +11,7 @@
 
     <dimen name="headerbar_elevation">4dp</dimen>
 
-    <dimen name="floating_action_button_height">56dp</dimen> <!-- including padding -->
+    <dimen name="fab_height">56dp</dimen> <!-- including padding -->
+    <dimen name="fab_press_translation_z">9dp</dimen>
 
 </resources>

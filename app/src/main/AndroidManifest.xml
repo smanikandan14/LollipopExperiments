@@ -17,7 +17,7 @@
         </activity>
 
         <activity
-            android:name=".AllWidgetsActivity"
+            android:name=".ExtendedToolBarActivity"
             android:theme="@style/AllMaterialColorTheme"/>
 
         <activity
@@ -31,6 +31,10 @@
         <activity
             android:name=".ToolBarDarkActivity"
             android:theme="@style/ToolBarDarkTheme" />
+
+        <activity
+            android:name=".AllWidgetsActivity"
+            android:theme="@style/AllMaterialColorTheme"/>
 
         <activity
             android:name=".RippleExampleActivity"

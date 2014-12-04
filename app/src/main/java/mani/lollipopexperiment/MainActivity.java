@@ -46,9 +46,12 @@ public class MainActivity extends ActionBarActivity {
                 startActivity(new Intent(MainActivity.this, ToolBarDarkActivity.class));
                 break;
             case 3:
-                startActivity(new Intent(MainActivity.this, AllWidgetsActivity.class));
+                startActivity(new Intent(MainActivity.this, ExtendedToolBarActivity.class));
                 break;
             case 4:
+                startActivity(new Intent(MainActivity.this, AllWidgetsActivity.class));
+                break;
+            case 5:
                 startActivity(new Intent(MainActivity.this, RippleExampleActivity.class));
                 break;
         }

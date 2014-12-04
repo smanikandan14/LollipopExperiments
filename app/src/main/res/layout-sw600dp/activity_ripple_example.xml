@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -47,14 +47,14 @@
 
         </LinearLayout>
 
-    <ImageButton
+        <ImageButton
             android:id="@+id/floatingButton1"
             android:layout_width="@dimen/fab_height"
             android:layout_height="@dimen/fab_height"
-            android:layout_marginRight="@dimen/keyline_1"
-            android:layout_marginBottom="@dimen/keyline_1"
             android:layout_gravity="bottom|right"
             android:elevation="8dp"
+            android:layout_marginRight="@dimen/keyline_1"
+            android:layout_marginBottom="@dimen/keyline_1"
             android:background="@drawable/ripple_example_fab1"
             android:src="@drawable/ic_action_search"/>
 
