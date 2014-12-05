@@ -4,14 +4,21 @@
     tools:context=".MyActivity" >
 
     <item android:id="@+id/menu_search"
-        android:icon="@drawable/ic_search_white"
+        android:icon="@drawable/ic_search_black"
         android:orderInCategory="1"
         android:title="search"
         app:showAsAction="always" />
 
-    <item android:id="@+id/menu_call"
-        android:orderInCategory="2"
-        android:title="call"
+    <item android:id="@+id/menu_view"
+        android:icon="@drawable/ic_view_module_black"
+        android:orderInCategory="1"
+        android:title="viewgallery"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_refresh_black"
+        android:orderInCategory="1"
+        android:title="refresh"
         app:showAsAction="always" />
 
     <item android:id="@+id/action_settings"

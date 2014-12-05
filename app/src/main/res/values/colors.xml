@@ -13,9 +13,9 @@
     <color name="text_primary">#D9000000</color>
     <color name="text_secondary">#D9000000</color>
 
-    <!-- ToolBarLight Lime -->
-    <color name="toolbar_light_primary">#CDDC39</color>
-    <color name="toolbar_light_primaryDark">#AFB42B</color>
+    <!-- ToolBarLight Orange -->
+    <color name="toolbar_light_primary">#FF9800</color>
+    <color name="toolbar_light_primaryDark">#F57C00</color>
 
     <!-- ToolBarDark Blue -->
     <color name="toolbar_dark_primary">#F44336</color>
@@ -26,6 +26,9 @@
     <color name="ripple_theme_accent1">#00E676</color>
     <color name="ripple_theme_accent">#D50000</color>
 
+    <!-- Extended ToolBar Light Blue -->
+    <color name="extended_toolbar_light_primary">#03A9F4</color>
+    <color name="extended_toolbar_light_primaryDark">#0288D1</color>
 
 
 </resources>

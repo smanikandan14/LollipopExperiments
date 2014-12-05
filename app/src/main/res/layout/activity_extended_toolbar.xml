@@ -7,47 +7,13 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/action_bar_size_x2"
         android:minHeight="?attr/actionBarSize"
         android:elevation="4dp"
+        android:paddingBottom="@dimen/keyline_1"
+        android:gravity="bottom"
         android:background="?attr/colorPrimary"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="?attr/actionBarSize"
-            android:layout_marginBottom="@dimen/keyline_1"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="Title"
-                android:textColor="#DEDEDE"
-                android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="Description"
-                android:textColor="#DEDEDE"
-                android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"/>
-
-        </LinearLayout>
 
     </android.support.v7.widget.Toolbar>
 

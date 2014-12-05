@@ -18,7 +18,15 @@
 
         <activity
             android:name=".ExtendedToolBarActivity"
-            android:theme="@style/AllMaterialColorTheme"/>
+            android:theme="@style/ExtendedToolBarLightTheme"/>
+
+        <activity
+            android:name=".ExtendedToolBarActivity1"
+            android:theme="@style/ToolBarLightTheme"/>
+
+        <activity
+            android:name=".ExtendedToolBarActivity2"
+            android:theme="@style/ToolBarDarkTheme"/>
 
         <activity
             android:name=".ToolBarLightActivity"

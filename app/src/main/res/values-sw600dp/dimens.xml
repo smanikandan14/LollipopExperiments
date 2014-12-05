@@ -13,4 +13,6 @@
 
     <dimen name="fab_height">56dp</dimen> <!-- including padding -->
 
+    <dimen name="action_bar_size_x2">128dp</dimen>
+
 </resources>

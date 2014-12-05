@@ -36,7 +36,7 @@ public class ToolBarLightActivity extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.sample_menu, menu);
+        getMenuInflater().inflate(R.menu.light_toolbar_menu, menu);
         return true;
     }
 
