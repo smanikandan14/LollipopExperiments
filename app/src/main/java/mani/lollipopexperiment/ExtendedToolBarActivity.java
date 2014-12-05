@@ -23,7 +23,7 @@ public class ExtendedToolBarActivity extends ActionBarActivity {
         getSupportActionBar().setTitle("Title");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        ((TextView)findViewById(R.id.themeText)).setText("Theme.AppCompat.Light.DarkActionBar");
+        ((TextView)findViewById(R.id.themeText)).setText("Extended ToolBar");
     }
 
     @Override
