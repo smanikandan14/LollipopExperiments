@@ -35,6 +35,11 @@
         <item name="colorPrimaryDark">@color/extended_toolbar_light_primaryDark</item>
     </style>
 
+    <style name="ExtendedToolBarLightTheme1" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/toolbar_light_primary</item>
+        <item name="colorPrimaryDark">@color/toolbar_light_primaryDark</item>
+        <item name="windowActionBar">false</item>
+    </style>
 
     <style name="AllMaterialColorTheme.Base" parent="Theme.AppCompat.Light">
         <item name="colorPrimary">@color/primary</item>

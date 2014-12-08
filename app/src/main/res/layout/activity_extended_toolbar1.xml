@@ -1,8 +1,23 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
+    <View
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="?attr/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -10,47 +25,16 @@
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
         android:elevation="4dp"
-        android:background="?attr/colorPrimary"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="#ffffff"
+        app:theme="@style/ThemeOverlay.AppCompat.Light"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="?attr/actionBarSize"
-            android:layout_marginBottom="@dimen/keyline_1"
-            android:orientation="vertical">
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="8dp" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="Title"
-                android:textColor="#DEDEDE"
-                android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="Description"
-                android:textColor="#DEDEDE"
-                android:textAppearance="?android:attr/textAppearanceMedium"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"/>
-
-        </LinearLayout>
-
     </android.support.v7.widget.Toolbar>
+        <View
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"/>
 
-</LinearLayout>
+    </LinearLayout>
+</FrameLayout>

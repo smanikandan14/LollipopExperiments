@@ -22,7 +22,7 @@
 
         <activity
             android:name=".ExtendedToolBarActivity1"
-            android:theme="@style/ToolBarLightTheme"/>
+            android:theme="@style/ExtendedToolBarLightTheme1"/>
 
         <activity
             android:name=".ExtendedToolBarActivity2"
