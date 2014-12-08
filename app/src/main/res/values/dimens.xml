@@ -14,6 +14,10 @@
     <dimen name="fab_height">56dp</dimen> <!-- including padding -->
     <dimen name="fab_press_translation_z">9dp</dimen>
 
+    <!-- Tool bar 56dp 72dp = 128dp -->
     <dimen name="action_bar_size_x2">112dp</dimen>
+
+    <!-- 56 * 3 =  168 -->
+    <dimen name="action_bar_size_x3">168dp</dimen>
 
 </resources>

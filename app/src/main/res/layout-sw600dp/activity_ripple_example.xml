@@ -56,7 +56,7 @@
             android:layout_marginRight="@dimen/keyline_1"
             android:layout_marginBottom="@dimen/keyline_1"
             android:background="@drawable/ripple_example_fab1"
-            android:src="@drawable/ic_action_search"/>
+            android:src="@drawable/ic_action_search_white"/>
 
     </FrameLayout>
 

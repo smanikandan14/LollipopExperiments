@@ -57,7 +57,7 @@
             android:layout_marginBottom="@dimen/keyline_1"
             android:stateListAnimator="@animator/fab_anim"
             android:background="@drawable/ripple_example_fab1"
-            android:src="@drawable/ic_action_search"/>
+            android:src="@drawable/ic_action_search_white"/>
 
     </FrameLayout>
 

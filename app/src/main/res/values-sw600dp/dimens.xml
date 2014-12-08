@@ -13,6 +13,16 @@
 
     <dimen name="fab_height">56dp</dimen> <!-- including padding -->
 
+    <!-- 56dp 72dp = 128dp -->
     <dimen name="action_bar_size_x2">128dp</dimen>
+
+    <!-- 64 * 3 =  192 dp -->
+    <dimen name="action_bar_size_x3">192dp</dimen>
+
+    <!-- 64 * 2 = 128dp -->
+    <dimen name="extended_toolbar_top_margin">128dp</dimen>
+
+    <!-- 8x = 8 x 56 dp =  168dp -->
+    <dimen name="extended_toolbar_landscape_width">448dp</dimen>
 
 </resources>
